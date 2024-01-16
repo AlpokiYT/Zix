@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Roboto:wght@400;900&family=Tilt+Neon&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.divrandomowy{
+    width: 100%;
+    background-image: url(tlo.png);
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    margin: 15px;
+    text-align: center;
+}
+.nav{
+    padding: 35px;
+    font-family: Pixelify Sans;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+.nav:hover{
+    padding: 35px;
+    font-family: Pixelify Sans;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgba(128, 128, 128, 0.7);
+    color: white;
+    border-radius: 45px;
+
+}
+   
+.img{
+    border-radius: 35px;
+    display: block;
+    margin-left: 100px;
+}
+.rozdzielacz{
+    height: 110px;
+    width: 100%;
+    border-radius: 35px;
+    background-color: lightgrey;
+    position: absolute;
+    bottom: -55px;
+    
+}
+header{
+    position: relative;
+}
+main{
+    padding-top: 100px;
+    background-color: gray;
+}
+.text{
+    text-align: right;
+    margin-bottom: 10px;
+}
